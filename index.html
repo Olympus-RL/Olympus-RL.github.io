@@ -68,7 +68,7 @@
 					  <p><span class="author-block">Supervisor: Prof. Dr. Konstantinos Alexis</span></p>
 					  <p><span class="author-block">Co-supervisor: Jørgen Anker Olsen</span></p>
 					  <p>&nbsp;</p>
-                    <p> <span class="author-block">Spezialisation Project</span></p>
+                    <p> <span class="author-block">Spezialisation Projects</span></p>
                     <p><span class="author-block">Norwegian University of Science and Technology&nbsp;<br>
                       </span> <span class="eql-cntrb"><small><br>
                         <sup>*</sup>Indicates Equal Contribution</small></span> </p>
@@ -183,33 +183,30 @@
 
 
 <!-- Image carousel -->
+<!--
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
-      <!-- Your image here -->
       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
@@ -219,33 +216,117 @@
 </div>
 </div>
 </section>
+-->
 <!-- End image carousel -->
 
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- Video -->
+
+<section class="hero is-small is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container has-text-centered">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">180 Degrees Roll Reorientation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+          <video poster="" id="roll_vid" autoplay controls muted loop width="40%">
+			<!-- Your video here -->
+			<source src="static/videos/180roll_3xslomo.mp4"
+			type="video/mp4">
+      	  </video>
+
+			<img src="static/images/roll_plot.png" alt="180 degreesroll" width="40%"/>
+			
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+
+<!-- Video -->
+	
+<!-- Video -->
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <!-- Paper video. -->
+      <h2 class="title is-3">180 Degrees Pitch Reorientation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <video poster="" id="pitch_vid" autoplay controls muted loop width="40%">
+			<!-- Your video here -->
+			<source src="static/videos/180pitch_3xslomo.mp4"
+			type="video/mp4">
+      	  </video>
+
+			<img src="static/images/pitch_plot.png" alt="180 degrees pitch" width="40%"/>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Video -->
+	
+<!-- Video -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <!-- Paper video. -->
+      <h2 class="title is-3">180 Degrees Yaw Reorientation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <video poster="" id="yaw_vid" autoplay controls muted loop width="40%">
+			<!-- Your video here -->
+			<source src="static/videos/180yaw_3xslomo.mp4"
+			type="video/mp4">
+      	  </video>
+
+			<img src="static/images/pitch_plot.png" alt="180 degrees yaw" width="40%"/>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Video -->
+	
+<!-- Video -->
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Following a Moving Target</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <video poster="" id="pointer" autoplay controls muted loop height="100%">
+			<!-- Your video here -->
+			<source src="static/videos/Pointer.mp4"
+			type="video/mp4">
+      	  </video>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Video -->
 
 
 <!-- Video carousel -->
+<!--
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -253,21 +334,21 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+
             <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
+
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
@@ -276,6 +357,7 @@
     </div>
   </div>
 </section>
+-->
 <!-- End video carousel -->
 
 
@@ -284,6 +366,7 @@
 
 
 <!-- Paper poster -->
+<!--
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
@@ -295,6 +378,7 @@
       </div>
     </div>
   </section>
+-->
 <!--End paper poster -->
 
 

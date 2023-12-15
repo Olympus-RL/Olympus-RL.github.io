@@ -173,7 +173,7 @@
         <h2 class="title is-3">Summary</h2>
         <div class="content has-text-justified">
           <p>
-	      The showcased videos encapsulate the key outcomes of our collaborative specialisation projects. Utilising a massively parallelised deep reinforcement learning pipeline, we trained dual policies: one dedicated to achieving optimal jumps and another focused on in-air stabilisation. The jump policy strives for a specified distance, while the in-air reorientation policy endeavors to guide the robot towards a desired orientation. </p>
+	      The showcased videos encapsulate the key outcomes of our collaborative specialisation projects. Utilising a massively parallelised deep reinforcement learning pipeline, we trained dual policies: one dedicated to achieving optimal jumps and another focused on in-air stabilisation. The jump policy strives for a specified height or length, while the in-air reorientation policy endeavors to guide the robot towards a desired orientation. </p>
         </div>
       </div>
     </div>
@@ -307,6 +307,7 @@
     <div class="container has-text-centered">
       <!-- Paper video. -->
       <h2 class="title is-3">Following a Moving Target</h2>
+		
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
@@ -318,6 +319,8 @@
 			
         </div>
       </div>
+		<h2 class="subtitle has-text-centered">The yellow cross visualises the target orientation.</h2>
+		
     </div>
   </div>
 </section>
@@ -327,7 +330,7 @@
 
 <!-- Video -->
 
-<section class="hero is-light">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container has-text-centered">
       <!-- Paper video. -->
@@ -335,7 +338,7 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <video poster="" id="pointer" autoplay controls muted loop height="100%">
+          <video poster="" id="hj" autoplay controls muted loop height="100%">
 			<!-- Your video here -->
 			<source src="static/videos/hj-ball-short.mp4"
 			type="video/mp4">
@@ -343,6 +346,7 @@
 			
         </div>
       </div>
+		<h2 class="subtitle has-text-centered">The yellow sphere visualises the target height.</h2>
     </div>
   </div>
 </section>
@@ -355,18 +359,20 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <!-- Paper video. -->
-      <h2 class="title is-3">Jumping a Desired Length</h2>
+      <h2 class="title is-3">Jumping to a Desired Length</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <video poster="" id="pointer" autoplay controls muted loop height="100%">
+          <video poster="" id="lj" autoplay controls muted loop height="100%">
 			<!-- Your video here -->
 			<source src="static/videos/LJ-BALL-short.mp4"
 			type="video/mp4">
       	  </video>
 			
         </div>
+		  
       </div>
+		<h2 class="subtitle has-text-centered">The yellow sphere visualises the target length.</h2>
     </div>
   </div>
 </section>
@@ -431,12 +437,14 @@
 
 
 <!--BibTex citation -->
+	<!--
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
 </section>
+-->
 <!--End BibTex citation -->
 
 
